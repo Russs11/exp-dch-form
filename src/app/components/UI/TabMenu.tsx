@@ -30,27 +30,27 @@ export default function TabMenu() {
             <Tabs aria-label="Dynamic tabs" color='primary' radius='full' size='sm' items={tabs}>
                 {(item) => (
                     <Tab key={item.id} title={item.label}>
-                        <Card className='mt-8 w-[95%]'>
+                        <Card className='mt-8 w-[100%]'>
                             <CardBody className='grid grid-cols-[1fr_1fr_2fr] gap-4'>
                                 <TableCard />
                                 <TableCard />
                                 <TableCard />
                             </CardBody>
                         </Card>
-                        <Card className='mt-8 w-[95%]'>
-                            <CardBody className='grid grid-cols-3 gap-4'>
+                        <Card className='mt-8 w-[100%]'>
+                            <CardBody className='grid grid-cols-[1fr_1fr_2fr] gap-4'>
                                 {/* {item.content} */}
-                                <Input />
-                                <Input />
-                                <Input />
+                                <TableCard />
+                                <TableCard />
+                                <TableCard />
                             </CardBody>
                         </Card>
-                        <Card className='mt-8 w-[95%]'>
-                            <CardBody className='grid grid-cols-3 gap-4'>
+                        <Card className='mt-8 w-[100%]'>
+                            <CardBody className='grid grid-cols-[1fr_1fr_2fr] gap-4'>
                                 {/* {item.content} */}
-                                <Input />
-                                <Input />
-                                <Input />
+                                <TableCard />
+                                <TableCard />
+                                <TableCard />
                             </CardBody>
                         </Card>
                     </Tab>

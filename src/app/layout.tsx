@@ -27,9 +27,8 @@ export default function RootLayout({
   return (
     <html className="light" lang='en' >
       <body
-        className={`light ${inter.variable} antialiased min-w-[900px] w-screen`}
-      >
-        <div className='flex flex-col h-screen'>
+        className={`light ${inter.variable} antialiased `}>
+        <div className='flex flex-col h-screen min-w-[900px] w-screen'>
           <Providers >
           <Header/>
           {children}

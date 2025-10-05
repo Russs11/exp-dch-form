@@ -17,7 +17,7 @@ export function Dashboard() {
                         Добавить запись
                     </Button>
                 </div>
-                <div className='grid grid-cols-1 h-40 w-screen '>
+                <div className='grid grid-cols-1 h-40 '>
                     <TabMenu />
                 </div>
             </div>
