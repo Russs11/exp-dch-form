@@ -8,7 +8,7 @@ import TabMenu from "../components/UI/TabMenu";
 export function DashBoard() {
     return (
         <>
-            <div className="grid grid-cols-1 gap-5 p-10 grid-rows-[1fr 2fr]">
+            <div className="grid grid-cols-1 gap-5 px-0 py-10 grid-rows-[1fr 2fr] md:p-10">
                 <div className="grid grid-cols-4 grid-rows-1 gap-x-10 justify-self-end items-center ">
                     <DropdownComponent />
                     <DropdownComponent />
