@@ -5,7 +5,7 @@ import DropdownComponent from "../components/UI/DropdownComponent";
 import TabMenu from "../components/UI/TabMenu";
 
 
-export function Dashboard() {
+export function DashBoard() {
     return (
         <>
             <div className="grid grid-cols-1 gap-5 p-10 grid-rows-[1fr 2fr]">

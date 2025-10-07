@@ -1,5 +1,5 @@
 import { Metadata } from "next"
-import { Dashboard } from "./Dashboard"
+import { DashBoard } from "./DashBoard"
 
 
 
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 export default function MainPage() {
     return (
         <>
-            <Dashboard />
+            <DashBoard />
         </>
     )
 }
