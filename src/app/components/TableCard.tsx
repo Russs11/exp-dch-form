@@ -26,9 +26,9 @@ export default function TableCard() {
         },
         {
             key: "3",
-            name: "Jane Fisher",
-            typeOfCrime: "Senior Developer",
-            status: "Active",
+            name: "",
+            typeOfCrime: "",
+            status: "",
         },
 
     ];
@@ -65,6 +65,28 @@ export default function TableCard() {
                     </TableRow>
                 )}
             </TableBody>
+            {/* <TableBody>
+                <TableRow key="1">
+                    <TableCell>Tony Reichert</TableCell>
+                    <TableCell>CEO</TableCell>
+                    <TableCell>Active</TableCell>
+                </TableRow>
+                <TableRow key="2">
+                    <TableCell>Zoey Lang</TableCell>
+                    <TableCell>Technical Lead</TableCell>
+                    <TableCell>Paused</TableCell>
+                </TableRow>
+                <TableRow key="3">
+                    <TableCell>Jane Fisher</TableCell>
+                    <TableCell>Senior Developer</TableCell>
+                    <TableCell>Active</TableCell>
+                </TableRow>
+                <TableRow key="4" className="">
+                    <TableCell className="w-fit">ФИО подозреваемого по сводке,</TableCell>
+                    <TableCell>предоставление д/к, б/к,</TableCell>
+                    <TableCell>замечания по ФТ</TableCell>
+                </TableRow>
+            </TableBody> */}
         </Table>
     );
 }
