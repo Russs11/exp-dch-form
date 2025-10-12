@@ -32,7 +32,7 @@ export default function TabMenu() {
                 {(item) => (
                     <Tab key={item.id} title={item.label}>
                         <Card className='mt-8 w-[100%]'>
-                            <CardBody className='grid grid-cols-1 gap-4'>
+                            <CardBody className='grid grid-cols-1 gap-4 p-5'>
                                 {/* <TableCard />
                                 <TableCard />
                                 <TableCard /> */}
